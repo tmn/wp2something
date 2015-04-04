@@ -1,0 +1,4 @@
+data.xml
+posts/*
+.DS_Store
+node_modules/

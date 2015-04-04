@@ -1,0 +1,14 @@
+{
+  "name": "wp2something",
+  "version": "1.0.0",
+  "description": "Export Wordpress posts to something",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tmn",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "^0.4.6"
+  }
+}
