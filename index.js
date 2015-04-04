@@ -19,7 +19,7 @@ fs.readFile(__dirname + '/data.xml', function (err, data) {
           pub_date: e.pubDate[0]
         }
 
-        var filename = !post.post_name ? post.title : post.post_name;
+        var filename = !post.post_name ? post.title : post.post_name
 
         fs.writeFileSync(
           __dirname + '/posts/' + post.post_date.substring(0, 10) + '-' + filename,
